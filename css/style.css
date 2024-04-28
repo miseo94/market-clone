@@ -11,11 +11,11 @@ body {
 }
 
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@ body {
   opacity: 0;
 }
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 800px) {
   .media-info-msg {
     opacity: 1;
   }
